@@ -2,12 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-html,
 body {
-  overflow-x: hidden;
+  background: #3c3b3b;
+
+  min-height: calc(100vh - 2 * 4vw);
+  font-family: "Quicksand", sans-serif;
 }
