@@ -8,15 +8,15 @@
       ><IconLogo class="translate-y-[-9px]"
     /></a>
 
-    <nav class="translate-y-[-30px]">
+    <nav class="translate-y-[-26px]">
       <ul class="flex flex-col items-start text-white text-[13px] font-normal">
         <li
           v-for="item in menuItems"
           :key="item.id"
-          class="cursor-pointer w-[170px] h-[52px] pt-[16px] hover:rounded-r-lg hover:shadow-clickShadow focus:rounded-r-lg focus:shadow-clickShadow"
+          class=""
         >
           <a
-            class="flex w-full items-center pl-[24px]"
+            class="flex cursor-pointer w-[170px] h-[52px] pt-[16px] pb-[16px] items-center pl-[24px] focus:rounded-r-lg focus:shadow-clickShadow"
             :href="item.href"
             ><component
               :is="item.icon"
@@ -32,8 +32,7 @@
     <div
       v-if="open"
       ref="mobileNav"
-      class="w-[180px] h-[673px] shadow-innerLightShadow pt-[5px] rounded-br-3xl bg-primary grid row-start-1 row-end-4 items-center"
-      :class="[open ? 'fixed  z-20' : '']"
+      class="w-[180px] h-[673px] fixed z-20 shadow-innerLightShadow pt-[5px] rounded-br-3xl bg-primary grid row-start-1 row-end-4 items-center"
     >
       <div
         class="relative h-4 w-4 flex flex-col justify-between cursor-pointer bg-transparent ml-[10px] md:hidden"
@@ -58,18 +57,18 @@
         ><IconLogo class="translate-y-[-9px]"
       /></a>
 
-      <nav class="translate-y-[-30px]">
+      <nav class="translate-y-[-26px]">
         <ul
           class="flex flex-col items-start text-white text-[13px] font-normal"
         >
           <li
             v-for="item in menuItems"
             :key="item.id"
-            class="cursor-pointer w-[170px] h-[52px] pt-[16px] hover:rounded-r-lg hover:shadow-clickShadow"
+            class=""
           >
             <a
-              class="flex w-full items-center pl-[24px]"
-              href=""
+              class="flex cursor-pointer w-[170px] h-[52px] pt-[16px] pb-[16px] items-center pl-[24px] focus:rounded-r-lg focus:shadow-clickShadow"
+              :href="item.href"
               ><component
                 :is="item.icon"
                 class="mr-[16px]"
