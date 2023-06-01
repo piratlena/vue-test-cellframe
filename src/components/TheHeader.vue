@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[1098px] h-[60px] bg-primary shadow-innerLightShadow rounded-bl-2xl pl-[36px] py-[15px] grid col-start-2 col-end-4"
+    class="bg-primary md:w-[1098px] md:h-[60px] md:grid md:col-start-2 md:col-end-4 md:shadow-innerLightShadow rounded-bl-2xl pl-[36px] py-[15px]"
   >
     <UISearchInput />
   </div>

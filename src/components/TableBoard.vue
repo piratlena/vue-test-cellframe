@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[678px] h-[570px] bg-secondary rounded-xl shadow-clickShadow mt-[18px] ml-[20px] grid row-start-2 row-end-4 mb-[24px]"
+    class="bg-secondary rounded-xl shadow-clickShadow mt-[18px] ml-[20px] grid row-start-2 row-end-4 mb-[24px] w-[80vw] md:w-[678px] h-[570px]"
   >
     <div class="w-full h-[42px] pl-[16px] pt-[12px] text-[14px] text-white">
       Certificates
@@ -15,7 +15,7 @@
       :key="index"
     >
       <div
-        class="w-[646px] mr-[16px] h-[50px] ml-[16px] pt-[13px] pb-[13px] text-[16px] text-white border-b-[1px] border-b-grey-dark-1"
+        class="mr-[16px] h-[50px] ml-[16px] pt-[13px] pb-[13px] text-[16px] text-white border-b-[1px] border-b-grey-dark-1 md:w-[646px]"
         :class="tableData.length - 1 === index ? 'border-none' : ''"
       >
         {{ data }}

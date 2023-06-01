@@ -1,8 +1,10 @@
 <template>
   <div
-    class="grid col-start-1 col-end-4 bg-primary h-[42px] w-[1280px] shadow-shadowUp"
+    class="bg-primary shadow-shadowUp h-[42px] flex md:grid md:col-start-1 md:col-end-4 md:h-[42px] md:w-[1280px]"
   >
-    <div class="flex flex-cols justify-between w-[941px] m-auto">
+    <div
+      class="flex m-auto md:flex-row md:justify-between md:w-[941px] md:m-auto"
+    >
       <div
         class="flex flex-cols items-center"
         v-for="(data, index) in dataStatusBar"
