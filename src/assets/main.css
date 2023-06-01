@@ -7,4 +7,5 @@ body {
 
   min-height: calc(100vh - 2 * 4vw);
   font-family: "Quicksand", sans-serif;
+  color: #ffffff;
 }
