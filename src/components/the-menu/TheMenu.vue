@@ -1,10 +1,14 @@
 <template>
   <div
-    class="w-[180px] h-[673px] shadow-innerLightShadow pt-[15px] rounded-br-2xl bg-primary grid row-start-1 row-end-4"
+    class="w-[180px] h-[673px] shadow-innerLightShadow pt-[5px] rounded-br-3xl bg-primary grid row-start-1 row-end-4 items-center"
   >
-    <a href="/"><IconLogo class="translate-x-[-10px] pl-[24px]" /></a>
+    <a
+      href="/"
+      class="ml-[10px]"
+      ><IconLogo class="translate-y-[-9px]"
+    /></a>
 
-    <nav class="pt-[20px]">
+    <nav class="translate-y-[-30px]">
       <ul class="flex flex-col items-start text-white text-[13px] font-normal">
         <li
           v-for="item in menuItems"

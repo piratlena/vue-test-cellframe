@@ -23,13 +23,13 @@ module.exports = {
       },
       boxShadow: {
         innerLightShadow:
-          "-1px -1px  0 0  rgba(82, 77, 100, 1), 5px 5px 10px 0 rgba(8, 7, 13, 0.42)",
+          "-1px -1px  0 0  rgba(82, 77, 100, 1), 0 5px 10px 0 rgba(8, 7, 13, 0.42)",
         clickShadow:
           "inset 3px 3px 5px 0 rgba(8, 7, 13, 0.25), 1px 1px 0 0 rgba(107, 102, 126, 0.49)",
         buttonShadow:
           "inset 1px 1px 4px 0 rgba(241, 231, 255, 1), 2px 2px 7px 0 rgba(11, 10, 13, 0.44)",
         shadowUp:
-          "5px -5px 10px 0 rgba(8, 7, 13, 0.42), -1px -1px 0 0 rgba(82, 77, 100, 1)",
+          "0 -5px 10px 0 rgba(8, 7, 13, 0.42), -1px -1px 0 0 rgba(82, 77, 100, 1)",
       },
     },
     fontFamily: {

@@ -1,15 +1,15 @@
 <template>
   <div
-    class="ml-[40px] grid col-start-3 col-end-4 row-start-3 row-end-4 mb-[74px]"
+    class="h-[318px] ml-[36px] grid col-start-3 col-end-4 row-start-3 row-end-4 translate-y-[-25px]"
   >
-    <div class="text-[14px] text-white mb-[24px]">Actions</div>
+    <div class="text-[14px] text-white mb-[22px] font-bold">Actions</div>
     <UIButton
       size="large"
       text="Create certificate"
     />
     <UIButton
       size="large"
-      text="Create certificate"
+      text="Import certificate"
     />
 
     <UIButton

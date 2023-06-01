@@ -4,7 +4,7 @@
     <input
       type="text"
       placeholder="Search"
-      class="w-full bg-transparent border-b-[1px] border-b-grey-light-1 focus:outline-none placeholder-grey-light-1 pl-[30px]"
+      class="w-full bg-transparent border-b-[1px] border-b-grey-light-1 focus:outline-none placeholder-grey-light-1 pl-[33px]"
     />
   </div>
 </template>
